@@ -13,8 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: cd ZJobs
     - name: Build
-      run: swift build -v
+      run: cd ZJobs | swift build -v
     - name: Run tests
       run: swift test -v
