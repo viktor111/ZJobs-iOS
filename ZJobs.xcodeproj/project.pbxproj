@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		B3214F4A282647700078E9F1 /* ZJobsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F49282647700078E9F1 /* ZJobsApp.swift */; };
-		B3214F4C282647700078E9F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F4B282647700078E9F1 /* ContentView.swift */; };
 		B3214F4E282647710078E9F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3214F4D282647710078E9F1 /* Assets.xcassets */; };
 		B3214F51282647710078E9F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3214F50282647710078E9F1 /* Preview Assets.xcassets */; };
+		B3214F5C282647FA0078E9F1 /* LayoutPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F5B282647FA0078E9F1 /* LayoutPage.swift */; };
+		B3214F5E282648470078E9F1 /* JobsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F5D282648470078E9F1 /* JobsPage.swift */; };
+		B3214F60282648530078E9F1 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F5F282648530078E9F1 /* SettingsPage.swift */; };
+		B3214F62282648660078E9F1 /* MyAccountPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F61282648660078E9F1 /* MyAccountPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B3214F46282647700078E9F1 /* ZJobs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJobs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3214F49282647700078E9F1 /* ZJobsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJobsApp.swift; sourceTree = "<group>"; };
-		B3214F4B282647700078E9F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3214F4D282647710078E9F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3214F50282647710078E9F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3214F5B282647FA0078E9F1 /* LayoutPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPage.swift; sourceTree = "<group>"; };
+		B3214F5D282648470078E9F1 /* JobsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsPage.swift; sourceTree = "<group>"; };
+		B3214F5F282648530078E9F1 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		B3214F61282648660078E9F1 /* MyAccountPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAccountPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +57,9 @@
 		B3214F48282647700078E9F1 /* ZJobs */ = {
 			isa = PBXGroup;
 			children = (
+				B3214F582826478C0078E9F1 /* Controls */,
+				B3214F572826477E0078E9F1 /* Pages */,
 				B3214F49282647700078E9F1 /* ZJobsApp.swift */,
-				B3214F4B282647700078E9F1 /* ContentView.swift */,
 				B3214F4D282647710078E9F1 /* Assets.xcassets */,
 				B3214F4F282647710078E9F1 /* Preview Content */,
 			);
@@ -65,6 +72,24 @@
 				B3214F50282647710078E9F1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3214F572826477E0078E9F1 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				B3214F5B282647FA0078E9F1 /* LayoutPage.swift */,
+				B3214F5D282648470078E9F1 /* JobsPage.swift */,
+				B3214F5F282648530078E9F1 /* SettingsPage.swift */,
+				B3214F61282648660078E9F1 /* MyAccountPage.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		B3214F582826478C0078E9F1 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3214F4C282647700078E9F1 /* ContentView.swift in Sources */,
+				B3214F5E282648470078E9F1 /* JobsPage.swift in Sources */,
+				B3214F5C282647FA0078E9F1 /* LayoutPage.swift in Sources */,
 				B3214F4A282647700078E9F1 /* ZJobsApp.swift in Sources */,
+				B3214F62282648660078E9F1 /* MyAccountPage.swift in Sources */,
+				B3214F60282648530078E9F1 /* SettingsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
