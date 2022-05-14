@@ -1,5 +1,5 @@
 //
-//  MyJobsExpanded.swift
+//  TakenJobs.swift
 //  ZJobs
 //
 //  Created by Viktor Draganov on 8.05.22.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct MyJobsExpanded: View {
+struct TakenJobsView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct MyJobsExpanded_Previews: PreviewProvider {
+struct TakenJobsView_Previews: PreviewProvider {
     static var previews: some View {
-        MyJobsExpanded()
+        TakenJobsView()
     }
 }

@@ -7,25 +7,45 @@
 
 import Foundation
 
-class User{
-    let id: String
+class User : ObservableObject{
+    @Published var id: String
     
-    let firstName: String
+    @Published var imageUrl: String
     
-    let lastName: String
+    @Published var firstName: String
     
-    let userName: String
+    @Published var lastName: String
     
-    let email: String
+    @Published var userName: String
     
-    let jobs: [Job]
+    @Published var email: String
     
-    init(id: String, firstName: String, lastName: String, userName: String, email: String, jobs: [Job]){
+    @Published var jobs: [Job]
+    
+    init(id: String,
+         imageUrl: String,
+         firstName: String,
+         lastName: String,
+         userName: String,
+         email: String,
+         jobs: [Job])
+    {
         self.id = id
+        self.imageUrl = imageUrl
         self.firstName = firstName
         self.lastName = lastName
         self.userName = userName
         self.email = email
         self.jobs = jobs
     }
+}
+
+extension User{
+    static let sampleUserData: User = User(id: "1",
+                                           imageUrl: "user1",
+                                           firstName: "Viktor",
+                                           lastName: "Draganov",
+                                           userName: "zvado",
+                                           email: "swifrorlilko@gmail.com",
+                                           jobs:Job.sampleJobArrayData)
 }

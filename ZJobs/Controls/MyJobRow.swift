@@ -2,19 +2,18 @@
 //  JobRow.swift
 //  ZJobs
 //
-//  Created by Viktor Draganov on 9.05.22.
+//  Created by Viktor Draganov on 7.05.22.
 //
 
 import SwiftUI
 
-struct JobRow: View {
+struct MyJobRow: View {
     var job: Job
-    
     var body: some View {
         HStack{
             if job.isCompleated{
                 NavigationLink{
-                    JobDetailsView(job: job)
+                    MyJobDetailsView(job: job)
                 } label: {
                     HStack{
                         Image(systemName: "lanyardcard.fill")
@@ -25,7 +24,7 @@ struct JobRow: View {
             }
             else{
                 NavigationLink{
-                    JobDetailsView(job: job)
+                    MyJobDetailsView(job: job)
                 } label: {
                     HStack{
                         Image(systemName: "lanyardcard")
@@ -37,8 +36,8 @@ struct JobRow: View {
     }
 }
 
-struct JobRow_Previews: PreviewProvider {
+struct MyJobRow_Previews: PreviewProvider {
     static var previews: some View {
-        JobRow(job: Job.sampleJobData)
+        MyJobRow(job: Job.sampleJobData)
     }
 }

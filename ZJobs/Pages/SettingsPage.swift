@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct SettingsPage: View {
+    @State private var allowLocation = true
+    @StateObject var locationManager = LocationManager()
+    
     var body: some View {
-        Text("Settings Page")
+        List{
+            Button("Allow location"){                
+                locationManager.requestAuthorisation(always: true)
+            }
+        }
     }
 }
 
