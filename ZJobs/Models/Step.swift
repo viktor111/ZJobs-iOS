@@ -7,14 +7,14 @@
 
 import Foundation
 
-class Step{
-    let id: String
+class Step : ObservableObject, Identifiable{
+    @Published var id: String
     
-    let jobId: String
+    @Published var jobId: String
     
-    let description: String
+    @Published var description: String
     
-    let location: String
+    @Published var location: String
     
     init(id: String,
          jobId: String,
@@ -26,4 +26,28 @@ class Step{
         self.description = description
         self.location = location
     }
+}
+
+extension Step{
+    static let sampleStepData : Step = Step(id: "1",
+                                            jobId: "1",
+                                            description: "Deliver money to ulitsa 14",
+                                            location: "Stara Zagora ulitsa 14")
+    
+    static let sampleStepArrayData : [Step] = [Step(id: "1",
+                                                    jobId: "1",
+                                                    description: "Deliver money to ulitsa 14",
+                                                    location: "Stara Zagora ulitsa 14"),
+                                               Step(id: "2",
+                                                    jobId: "2",
+                                                    description: "Go to park",
+                                                    location: "Park aqzmo"),
+                                               Step(id: "3",
+                                                    jobId: "1",
+                                                    description: "Take mom from work",
+                                                    location: "bul. gorski bik"),
+                                               Step(id: "4",
+                                                    jobId: "1",
+                                                    description: "Take ou the trash in the bin",
+                                                    location: "surnena gora 27")]
 }

@@ -12,7 +12,7 @@ struct MyJobListModular: View {
     var body: some View {
         NavigationView{
             List(jobs){ job in
-                ModularMyJobList(job: job)                
+                MyJobRow(job: job)                
             }
             .frame( maxWidth: .infinity)
             .edgesIgnoringSafeArea(.all)

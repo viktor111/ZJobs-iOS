@@ -17,6 +17,21 @@
 		B3214F6628264F8F0078E9F1 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F6528264F8F0078E9F1 /* User.swift */; };
 		B3214F68282650600078E9F1 /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F67282650600078E9F1 /* Job.swift */; };
 		B3214F6A282651430078E9F1 /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F69282651430078E9F1 /* Step.swift */; };
+		B3214F6C282700900078E9F1 /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F6B282700900078E9F1 /* UserImage.swift */; };
+		B3214F6E2827049E0078E9F1 /* MyJobRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F6D2827049E0078E9F1 /* MyJobRow.swift */; };
+		B3214F70282707790078E9F1 /* MyJobListModular.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F6F282707790078E9F1 /* MyJobListModular.swift */; };
+		B3214F7228271D970078E9F1 /* MyJobDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3214F7128271D970078E9F1 /* MyJobDetailsView.swift */; };
+		B336C6932828431900EEAC15 /* AllJobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C6922828431900EEAC15 /* AllJobsView.swift */; };
+		B336C695282846D100EEAC15 /* JobList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C694282846D100EEAC15 /* JobList.swift */; };
+		B336C6972828485E00EEAC15 /* TakenJobsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C6962828485E00EEAC15 /* TakenJobsView.swift */; };
+		B336C69928284B6700EEAC15 /* CreateJobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C69828284B6700EEAC15 /* CreateJobView.swift */; };
+		B336C69B282965C800EEAC15 /* JobRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C69A282965C800EEAC15 /* JobRow.swift */; };
+		B336C69D282965D800EEAC15 /* JobDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C69C282965D800EEAC15 /* JobDetailsView.swift */; };
+		B336C6A32829A3B100EEAC15 /* DateFormaterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C6A22829A3B100EEAC15 /* DateFormaterExtension.swift */; };
+		B336C6A52829A4F900EEAC15 /* StepRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C6A42829A4F900EEAC15 /* StepRow.swift */; };
+		B336C6A9282A1E0F00EEAC15 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C6A8282A1E0F00EEAC15 /* LocationManager.swift */; };
+		B336C6AD282A1E9100EEAC15 /* JobsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336C6AC282A1E9100EEAC15 /* JobsMapView.swift */; };
+		B37EBA1B28273406004670AD /* MyJobsExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37EBA1A28273406004670AD /* MyJobsExpandedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +46,21 @@
 		B3214F6528264F8F0078E9F1 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B3214F67282650600078E9F1 /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		B3214F69282651430078E9F1 /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		B3214F6B282700900078E9F1 /* UserImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		B3214F6D2827049E0078E9F1 /* MyJobRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobRow.swift; sourceTree = "<group>"; };
+		B3214F6F282707790078E9F1 /* MyJobListModular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobListModular.swift; sourceTree = "<group>"; };
+		B3214F7128271D970078E9F1 /* MyJobDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobDetailsView.swift; sourceTree = "<group>"; };
+		B336C6922828431900EEAC15 /* AllJobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllJobsView.swift; sourceTree = "<group>"; };
+		B336C694282846D100EEAC15 /* JobList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobList.swift; sourceTree = "<group>"; };
+		B336C6962828485E00EEAC15 /* TakenJobsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakenJobsView.swift; sourceTree = "<group>"; };
+		B336C69828284B6700EEAC15 /* CreateJobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateJobView.swift; sourceTree = "<group>"; };
+		B336C69A282965C800EEAC15 /* JobRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobRow.swift; sourceTree = "<group>"; };
+		B336C69C282965D800EEAC15 /* JobDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailsView.swift; sourceTree = "<group>"; };
+		B336C6A22829A3B100EEAC15 /* DateFormaterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormaterExtension.swift; sourceTree = "<group>"; };
+		B336C6A42829A4F900EEAC15 /* StepRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepRow.swift; sourceTree = "<group>"; };
+		B336C6A8282A1E0F00EEAC15 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		B336C6AC282A1E9100EEAC15 /* JobsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsMapView.swift; sourceTree = "<group>"; };
+		B37EBA1A28273406004670AD /* MyJobsExpandedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJobsExpandedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +93,8 @@
 		B3214F48282647700078E9F1 /* ZJobs */ = {
 			isa = PBXGroup;
 			children = (
+				B336C6A7282A1DFA00EEAC15 /* Helpers */,
+				B336C6A12829A3A000EEAC15 /* Extensions */,
 				B3214F6428264F780078E9F1 /* Models */,
 				B3214F6328264E530078E9F1 /* Views */,
 				B3214F582826478C0078E9F1 /* Controls */,
@@ -96,6 +128,11 @@
 		B3214F582826478C0078E9F1 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				B3214F6B282700900078E9F1 /* UserImage.swift */,
+				B3214F6D2827049E0078E9F1 /* MyJobRow.swift */,
+				B3214F6F282707790078E9F1 /* MyJobListModular.swift */,
+				B336C69A282965C800EEAC15 /* JobRow.swift */,
+				B336C6A42829A4F900EEAC15 /* StepRow.swift */,
 			);
 			path = Controls;
 			sourceTree = "<group>";
@@ -103,6 +140,13 @@
 		B3214F6328264E530078E9F1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				B3214F7128271D970078E9F1 /* MyJobDetailsView.swift */,
+				B37EBA1A28273406004670AD /* MyJobsExpandedView.swift */,
+				B336C6922828431900EEAC15 /* AllJobsView.swift */,
+				B336C6962828485E00EEAC15 /* TakenJobsView.swift */,
+				B336C69828284B6700EEAC15 /* CreateJobView.swift */,
+				B336C69C282965D800EEAC15 /* JobDetailsView.swift */,
+				B336C6AC282A1E9100EEAC15 /* JobsMapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,8 +157,25 @@
 				B3214F6528264F8F0078E9F1 /* User.swift */,
 				B3214F67282650600078E9F1 /* Job.swift */,
 				B3214F69282651430078E9F1 /* Step.swift */,
+				B336C694282846D100EEAC15 /* JobList.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B336C6A12829A3A000EEAC15 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B336C6A22829A3B100EEAC15 /* DateFormaterExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B336C6A7282A1DFA00EEAC15 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B336C6A8282A1E0F00EEAC15 /* LocationManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,13 +248,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B336C69B282965C800EEAC15 /* JobRow.swift in Sources */,
 				B3214F5E282648470078E9F1 /* JobsPage.swift in Sources */,
 				B3214F6A282651430078E9F1 /* Step.swift in Sources */,
+				B3214F6E2827049E0078E9F1 /* MyJobRow.swift in Sources */,
+				B3214F70282707790078E9F1 /* MyJobListModular.swift in Sources */,
+				B336C6A52829A4F900EEAC15 /* StepRow.swift in Sources */,
+				B3214F7228271D970078E9F1 /* MyJobDetailsView.swift in Sources */,
+				B3214F6C282700900078E9F1 /* UserImage.swift in Sources */,
 				B3214F5C282647FA0078E9F1 /* LayoutPage.swift in Sources */,
 				B3214F6628264F8F0078E9F1 /* User.swift in Sources */,
+				B336C6A32829A3B100EEAC15 /* DateFormaterExtension.swift in Sources */,
 				B3214F4A282647700078E9F1 /* ZJobsApp.swift in Sources */,
+				B336C6AD282A1E9100EEAC15 /* JobsMapView.swift in Sources */,
+				B336C6932828431900EEAC15 /* AllJobsView.swift in Sources */,
 				B3214F62282648660078E9F1 /* MyAccountPage.swift in Sources */,
+				B336C6A9282A1E0F00EEAC15 /* LocationManager.swift in Sources */,
+				B336C6972828485E00EEAC15 /* TakenJobsView.swift in Sources */,
+				B336C69D282965D800EEAC15 /* JobDetailsView.swift in Sources */,
+				B37EBA1B28273406004670AD /* MyJobsExpandedView.swift in Sources */,
 				B3214F68282650600078E9F1 /* Job.swift in Sources */,
+				B336C695282846D100EEAC15 /* JobList.swift in Sources */,
+				B336C69928284B6700EEAC15 /* CreateJobView.swift in Sources */,
 				B3214F60282648530078E9F1 /* SettingsPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +399,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZJobs/Preview Content\"";
+				DEVELOPMENT_TEAM = FLPSD9S374;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -351,6 +428,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ZJobs/Preview Content\"";
+				DEVELOPMENT_TEAM = FLPSD9S374;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
